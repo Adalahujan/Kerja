@@ -2,8 +2,27 @@
 matrix1 = np.array([[1, 2, 3], [4, 5, 6]])
 matrix2 = np.array([[7, 8, 9], [10, 11, 12]])
 
-# Print the matrices
-print("Matrix 1:")
-print(matrix1)
-print("\nMatrix 2:")
-print(matrix2)
+# Add the matrices
+addition = matrix1 + matrix2
+
+# Subtract the matrices
+subtraction = matrix1 - matrix2
+
+# Multiply the matrices (element-wise multiplication)
+multiplication = matrix1 * matrix2
+
+# Divide the matrices (element-wise division)
+division = matrix1 / matrix2
+
+# Print results
+print("Addition of matrices:")
+print(addition)
+
+print("\nSubtraction of matrices:")
+print(subtraction)
+
+print("\nElement-wise multiplication of matrices:")
+print(multiplication)
+
+print("\nElement-wise division of matrices:")
+print(division)
